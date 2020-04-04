@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latihan Form</title>
+	</head>
+
+		<body>
+			<h2>Form Biodata HM-SI</h2>
+			
+			<form name="fbiomhs" action="form.php" method="post">
+				<table>
+					<tr>
+						<td>Nama</td>
+						<td><input type="text"  name="fnama"></td>
+					</tr>
+				
+					<tr>
+						<td>NIM</td>
+						<td><input type="text" name="fnim"></td>
+					</tr>
+				
+					<tr>
+						<td>Tanggal Lahir</td>
+						<td><input type="date" name="ftanggallahir"></td>
+					</tr>
+				
+					<tr>
+						<td>Jenis Kelamin</td>
+						<td>
+							<input type="radio" name="fjeniskelamin" value ="1">L
+							<input type="radio" name="fjeniskelamin" value="0">P
+						</td>
+					</tr>
+				
+					<tr>
+						<td>IPK</td>
+						<td><input type="number" name="fipk"></td>
+					</tr>
+					
+					<tr>
+						<td>Agama</td>
+						<td>
+						<select name="fagama">
+							<option value="islam">Islam</option>
+							<option value="hindu">Hindu</option>
+							<option value="budha">Budha</option>
+							<option value="kristen">Kristen</option>
+							<option value="katolik">Katolik</option>
+							<option value="konghuchu">Konghucu</option>
+						</select>
+						</td>
+					</tr>
+				
+					<tr>
+						<td>Bidang Peminatan</td>
+						<td>
+						<select multiple name="fbidangpeminatan">
+							<option value="fronyend"> Font End Web Dev</option>
+							<option value="backend"> Back End Web Dev</option>
+							<option value="devops"> Devops</option>
+							<option value="androiddev"> Android Dev</option>
+							<option value="iosdev"> IOS Dev</option>
+						</select>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><input type="Submit" name="fsubmit" value="kirim"></td>
+					</tr>
+				
+				</table>
+			</form>
+		</body>
+<html>
