@@ -1,0 +1,4 @@
+masih terdapat kekurangan dibagian fiture new release untuk melakukan pesanan .... 
+... untuk pesanan dapat dilakukan home bagian top release
+
+halaman admin sudah dibuat tetapi login masih tidak bisa mengarahkan kehalaman adnmin
